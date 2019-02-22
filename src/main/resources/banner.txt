@@ -1,0 +1,6 @@
+${AnsiColor.BRIGHT_WHITE}
+就这么跟你说吧,写这个代码的人啊,其中有一个叫做潘乐,那是真的帅得一批!都来好好看看啊!不要错过了啊!
+多看几遍之后啊!发现这个代码的bug都少了好多啊真的是!
+${AnsiColor.BRIGHT_RED}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}

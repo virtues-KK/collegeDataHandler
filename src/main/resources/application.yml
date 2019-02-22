@@ -1,0 +1,23 @@
+server:
+  port: 8089
+spring:
+#  main:
+#    banner-mode: off
+  #  datasource:
+#      url: jdbc:mysql://39.104.174.120/volunteer?useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+#      username: developer
+#      password: junYang2018_happy
+#      drive rClassName: com.mysql.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://192.168.1.142/volunteer_new?useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+    drive rClassName: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
